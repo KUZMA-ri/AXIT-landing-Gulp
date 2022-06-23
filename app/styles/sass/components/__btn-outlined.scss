@@ -1,0 +1,27 @@
+/*------------------------------------- */
+/* component BTN outlined start */
+/* ------------------------------------ */
+.btn-outlined {
+    color: var(--white);
+    background: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5625em;
+    text-transform: capitalize;
+    border-color: var(--white);
+    cursor: pointer;
+    border: 1px solid var(--white);
+    padding: 15px;
+
+    &:hover{
+      background-color: #fbfbfa;
+      color: var(--dark);
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+    }
+  }  
+  /* ------------------------------ */
+  /* component BTN outlined end */
+  /* ------------------------------ */

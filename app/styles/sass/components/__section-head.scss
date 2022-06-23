@@ -1,0 +1,61 @@
+/* *********************************** */
+/* ....Component section Head start... */
+/* *********************************** */
+.section-head__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 2.625em;
+    color: var(--dark);
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .section-head__title {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1.166em;
+    }
+  }
+  
+  .section-head__title::after {
+    content: "";
+    display: block;
+    border: 1px solid var(--prime-color-light);
+    max-width: 170px;
+    margin: 42px auto 0px auto;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .section-head__title::after {
+      content: "";
+      display: block;
+      border: 1px solid var(--prime-color-light);
+      background-color: var(--prime-color-light);
+      max-width: 170px;
+      margin: 42px auto 0px auto;
+    }
+  }
+  
+  .section-head__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3125em;
+    color: #86878B;
+    margin-top: 70px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .section-head__text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.14em;
+    }
+  }
+  
+  /* *********************************** */
+  /* ....Component section Head end..... */
+  /* *********************************** */

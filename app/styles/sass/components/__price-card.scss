@@ -1,0 +1,141 @@
+/* ************************************** */
+/* ------component price-card start------ */
+/* ************************************** */
+.price-card__header {
+    background-color: var(--dark);
+    padding: 0 32px;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .price-card__header {
+      padding: 0 16px;
+    }
+  }
+  
+  .price-card__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 2.0625em;
+    text-transform: capitalize;
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .price-card__name {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.375em;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .price-card__name {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.388em;
+    }
+  }
+  
+  .price-card__value {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.625em;
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .price-card__value {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16em;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .price-card__value {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.166em;
+    }
+  }
+  
+  .price-card__free {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3125em;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .price-card__free {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.166em;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .price-card__free {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.14em;
+    }
+  }
+  
+  .price-card__body {
+    background-color: var(--white);
+    width: 100%;
+  }
+  
+  .price-card__item {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3125em;
+    text-transform: capitalize;
+    color: #86878B;
+    border-bottom: 1px solid #F5F5F5;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .price-card__item {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .price-card__item {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.14em;
+    }
+  }
+  
+  /* ************************************ */
+  /* ------component price-card end------ */
+  /* ************************************ */

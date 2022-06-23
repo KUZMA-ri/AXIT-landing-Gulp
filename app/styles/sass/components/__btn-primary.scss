@@ -1,0 +1,30 @@
+/* ********************************* */
+/*       Component btn-primary start */
+/* ********************************* */
+.btn-primary {
+    background: var(--prime-color-light);
+    color: var(--white);
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5625em;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+
+    &:hover{
+      background: var(--prime-color);
+      color: var(--white);
+    }
+
+    &:focus{
+      background-color: var(--prime-color-light);
+      -webkit-box-shadow: inset 0px 0px 10px var(--prime-color);
+              box-shadow: inset 0px 0px 10px var(--prime-color);
+    }
+  }
+  /* ********************************* */
+  /*       Component btn-primary end */
+  /* ********************************* */

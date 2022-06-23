@@ -1,0 +1,142 @@
+// ..................Social..........................
+
+.social {
+    background-color: #F8EFEF;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  .social__inner {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .social__inner {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .social__inner {
+      padding: 0;
+    }
+  }
+  
+  .social__info {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .social__info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 34px;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .social__info {
+      text-align: center;
+    }
+  }
+  
+  .social__title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 2.0625em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: capitalize;
+    max-width: 470px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .social__title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.388em;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .social__title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.388em;
+    }
+  }
+  
+  .social__text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3125em;
+    color: #86878B;
+    margin-top: 18px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .social__text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.14em;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .social__text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.14em;
+    }
+  }
+  
+  .social__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+  }
+  
+  @media screen and (max-width: 560px) {
+    .social-list__item {
+      max-width: 26px;
+      max-height: 26px;
+    }
+  }
+  
+  .social-list__img {
+    max-width: 70px;
+    max-height: 70px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .social-list__img {
+      max-width: 53px;
+      max-height: 53px;
+    }
+  }
+  

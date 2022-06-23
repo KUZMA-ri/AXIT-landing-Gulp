@@ -1,0 +1,19 @@
+/* ------------------------------ */
+/* component input-form start */
+/* ------------------------------ */
+.input {
+    width: 100%;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35em;
+
+    &:focus{
+      border-bottom: 1px solid --prime-color-light;
+    }
+  }
+  /* ------------------------------ */
+  /* component input form end */
+  /* ------------------------------ */

@@ -1,0 +1,46 @@
+/* component section-head___light start */
+.section-head__title_light {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 2.625em;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 560px) {
+  .section-head__title_light {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.166em;
+  }
+}
+
+.section-head__title_light::after {
+  content: "";
+  display: block;
+  max-width: 170px;
+  border: 1px solid var(--white);
+  margin: 57px auto 0 auto;
+}
+
+.section-head__text_light {
+  color: var(--white);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3125em;
+  text-align: center;
+  margin-top: 52px;
+  margin-bottom: 73px;
+}
+
+@media screen and (max-width: 560px) {
+  .section-head__text_light {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14em;
+  }
+}

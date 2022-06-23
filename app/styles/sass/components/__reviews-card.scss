@@ -1,0 +1,104 @@
+/* **************************************** */
+/* -----component reviews-card start------- */
+/* **************************************** */
+.reviews-card__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.166em;
+    background: #E2E2E2;
+    border-radius: 10px;
+    padding: 38px 30px;
+    color: #86878B;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+            box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .reviews-card__text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.14em;
+    }
+  }
+  
+  .reviews-card__text:after {
+    content: '';
+    position: relative;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #E2E2E2;
+    bottom: -4.5em;
+    z-index: 0;
+  }
+  
+  .reviews-card__customers {
+    margin-top: 66px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: start;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .reviews-card__customers {
+      margin-top: 33px;
+    }
+  }
+  
+  .reviews-card__photo {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+            box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .reviews-card__photo {
+      width: 63px;
+      height: 63px;
+    }
+  }
+  
+  .reviews-card__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375em;
+    text-transform: capitalize;
+    color: var(--dark);
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .reviews-card__name {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.388em;
+    }
+  }
+  
+  .reviews-card__position {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.166em;
+    color: var(--dark);
+    margin-top: 15px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .reviews-card__position {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.14em;
+    }
+  }
+  
+  /* ******************************************** */
+  /* --------component reviews-card  end--------- */
+  /* ******************************************** */

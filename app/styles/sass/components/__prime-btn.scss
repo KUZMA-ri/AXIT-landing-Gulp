@@ -1,0 +1,28 @@
+/* ------------------------------ */
+/* component prime-btn start */
+/* ------------------------------ */
+.prime-btn {
+    background-color: var(--prime-color-light);
+    width: 100%;
+    padding: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.33em;
+    color: var(--white);
+  }
+  
+  .prime-btn:hover {
+    background-color: var(--prime-color);
+  }
+  
+  .prime-btn:focus {
+    background-color: var(--prime-color-light);
+    -webkit-box-shadow: inset 0px 0px 10px var(--prime-color);
+            box-shadow: inset 0px 0px 10px var(--prime-color);
+  }
+  
+  /* ********************************* */
+  /*       Component prime-btn end */
+  /* ********************************* */
